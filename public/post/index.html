@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<head>
+  <!-- Add required CSS and JavaScript libraries, such as Axios, Moment.js, and Swal -->
+  <link rel="stylesheet" href="./main.css">
+  <!-- Add other CSS stylesheets, if any -->
+</head>
+
+<body>
+  <div>
+    <h1>CRUD OPERATION WITH MONGODB</h1><button id="logout" onclick="logout()">logout</button>
+    <form onsubmit="createPost(event)">
+      <input type="text" id="title" placeholder="Post Title" required>
+      <textarea id="text" placeholder="Post Text" required></textarea>
+      <button type="submit" id="button">Create Post</button>
+    </form>
+    <h2>Posts</h2>
+  </div>
+  <div class="result"></div>
+  <div class="posts" id="posts"></div>
+
+  <!-- Add required JavaScript libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment/min/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+</script>
+<script src="main.js"></script>
+</body>
+
+</html>
